@@ -5,7 +5,7 @@ import DataTable from "components/DataTable";
 import NavBar from "components/NavBar";
 import Footer from "components/Footer";
 
-function Dashboard() {
+const Dashboard = () => {
     return (
         <>
             <NavBar />

@@ -9,7 +9,7 @@ type CharData = {
     series: number[];
 }
 
-function DonutChart() {
+const DonutChart = () => {
 
     const [chartData, setChartData] = useState<CharData>({ labels: [], series: [] });
 
